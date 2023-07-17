@@ -34,14 +34,14 @@ function Header() {
           {isDark ? 
             <img
                   alt="Akshay Narkhede"
-                  style = {{height:"50px",marginLeft:"2rem"}}
+                  style = {{height:"50px",marginLeft:"1.5rem"}}
                   // src={require("../../assets/images/ANLogo.png")}
                   src={require("../../assets/images/an-white-logo-no-background.png")}
             ></img>
             :
             <img
                   alt="Akshay Narkhede"
-                  style = {{height:"50px",marginLeft:"2rem"}}
+                  style = {{height:"50px",marginLeft:"1.5rem"}}
                   // src={require("../../assets/images/ANLogo_white.png")}
                   src={require("../../assets/images/an-black-logo-no-background.png")}
             ></img>
