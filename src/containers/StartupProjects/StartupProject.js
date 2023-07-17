@@ -17,6 +17,20 @@ export default function StartupProject() {
   if (!bigProjects.display) {
     return null;
   }
+
+  const GetDescBullets = ({descBullets, isDark}) => {
+    return descBullets
+      ? descBullets.map((item, i) => (
+          <li
+            key={i}
+            className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+          >
+            {item}
+          </li>
+        ))
+      : null;
+  };
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
@@ -65,19 +79,37 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+                    <ul style={{fontSize:"0.9rem",textAlign:"left"}}>
+                      <GetDescBullets descBullets={project.descBullets} isDark={isDark} />
+                    </ul>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {
                           return (
-                            <span
-                              key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
-                              onClick={() => openUrlInNewTab(link.url)}
-                            >
-                              {link.name}
-                            </span>
+                            <div>
+                                {(link.changeColor == true) ? 
+                                <span
+                                  style={{backgroundColor: "green"}}
+                                  key={i}
+                                  className={
+                                    isDark ? "dark-mode project-tag" : "project-tag"
+                                  }
+                                  onClick={() => openUrlInNewTab(link.url)}
+                                >
+                                  {link.name}
+                                </span> 
+                                :
+                                <span
+                                  key={i}
+                                  className={
+                                    isDark ? "dark-mode project-tag" : "project-tag"
+                                  }
+                                  onClick={() => openUrlInNewTab(link.url)}
+                                >
+                                  {link.name}
+                                </span>
+                                }
+                            </div>
                           );
                         })}
                       </div>

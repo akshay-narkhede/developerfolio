@@ -29,17 +29,32 @@ export default function AchievementCard({cardInfo, isDark}) {
         </p>
       </div>
       <div className="certificate-card-footer">
-        {cardInfo.footer.map((v, i) => {
+        {cardInfo.footer.map((link, i) => {
           return (
-            <span
-              key={i}
-              className={
-                isDark ? "dark-mode certificate-tag" : "certificate-tag"
-              }
-              onClick={() => openUrlInNewTab(v.url, v.name)}
-            >
-              {v.name}
-            </span>
+            <div>
+                {(link.changeColor == true) ? 
+                <span
+                  style={{backgroundColor: "green"}}
+                  key={i}
+                  className={
+                    isDark ? "dark-mode certificate-tag" : "certificate-tag"
+                  }
+                  onClick={() => openUrlInNewTab(link.url)}
+                >
+                  {link.name}
+                </span> 
+                :
+                <span
+                  key={i}
+                  className={
+                    isDark ? "dark-mode certificate-tag" : "certificate-tag"
+                  }
+                  onClick={() => openUrlInNewTab(link.url)}
+                >
+                  {link.name}
+                </span>
+                }
+            </div>
           );
         })}
       </div>

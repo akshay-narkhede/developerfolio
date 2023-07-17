@@ -15,7 +15,7 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
-        <Fade left duration={1000}>
+        <Fade left duration={500}>
           <div className="skills-image-div">
             {illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
@@ -27,7 +27,7 @@ export default function Skills() {
             )}
           </div>
         </Fade>
-        <Fade right duration={1000}>
+        <Fade right duration={500}>
           <div className="skills-text-div">
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
@@ -35,6 +35,7 @@ export default function Skills() {
               {skillsSection.title}{" "}
             </h1>
             <p
+              style = {{fontSize:"1.1rem"}}
               className={
                 isDark
                   ? "dark-mode subTitle skills-text-subtitle"
@@ -48,6 +49,7 @@ export default function Skills() {
               {skillsSection.skills.map((skills, i) => {
                 return (
                   <p
+                    style = {{fontSize:"1.1rem"}}
                     key={i}
                     className={
                       isDark

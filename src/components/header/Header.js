@@ -10,13 +10,15 @@ import {
   openSource,
   blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
+  aboutInfo
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
+  const viewAbout = aboutInfo.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
@@ -26,9 +28,25 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
+          {/* <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+          <span className="grey-color">/&gt;</span> */}
+          {isDark ? 
+            <img
+                  alt="Akshay Narkhede"
+                  style = {{height:"50px",marginLeft:"2rem"}}
+                  // src={require("../../assets/images/ANLogo.png")}
+                  src={require("../../assets/images/an-white-logo-no-background.png")}
+            ></img>
+            :
+            <img
+                  alt="Akshay Narkhede"
+                  style = {{height:"50px",marginLeft:"2rem"}}
+                  // src={require("../../assets/images/ANLogo_white.png")}
+                  src={require("../../assets/images/an-black-logo-no-background.png")}
+            ></img>
+          }
+          
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -39,6 +57,11 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          {viewAbout && (
+            <li>
+              <a href="#about">About</a>
+            </li>
+          )}
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
@@ -56,7 +79,7 @@ function Header() {
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#Projects">Projects</a>
             </li>
           )}
           {viewBlog && (
@@ -70,7 +93,7 @@ function Header() {
             </li>
           )}
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}

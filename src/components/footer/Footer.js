@@ -7,12 +7,12 @@ import StyleContext from "../../contexts/StyleContext";
 export default function Footer() {
   const {isDark} = useContext(StyleContext);
   return (
-    <Fade bottom duration={1000} distance="5px">
+    <Fade bottom duration={500} distance="5px">
       <div className="footer-div">
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by DeveloperFolio Team")}
+        <p style={{fontSize:"0.8rem"}} className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          {emoji("modified by Akshay Narkhede")}
         </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+        <p style={{fontSize:"0.6rem"}} className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
           <a href="https://github.com/saadpasta/developerFolio">
             developerFolio
