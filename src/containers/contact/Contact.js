@@ -10,11 +10,27 @@ import StyleContext from "../../contexts/StyleContext";
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
   return (
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main contact-margin-top" id="contact">
-        <div className="contact-div-main">
-          <div className="contact-header">
-            <h1 className="heading contact-title">{contactInfo.title}</h1>
+    <div className={isDark ? "dark-mode main" : "main"} id="contact">
+      <div className="contact-main-div">
+      <Fade right duration={300}>
+        <div className="contact-image-div">
+            {!illustration.animated ? (
+              <DisplayLottie animationData={email} />
+            ) : (
+              <img
+                alt="meh"
+                src={require("../../assets/images/coding_cat.jpeg")}
+              ></img>
+            )}
+          </div>
+        </Fade>
+        <Fade left duration={300}>
+          <div className="contact-text-div">
+            <h1
+              className={isDark ? "dark-mode contact-heading" : "contact-heading"}
+            >
+              {contactInfo.title}{" "}
+            </h1>
             <p
               className={
                 isDark
@@ -24,7 +40,8 @@ export default function Contact() {
             >
               {contactInfo.subtitle}
             </p>
-            <div
+          </div>
+          <div
               className={
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
@@ -51,19 +68,9 @@ export default function Contact() {
               <br />
               <SocialMedia />
             </div>
-          </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
-              ></img>
-            )}
-          </div>
-        </div>
+        </Fade>
+        
       </div>
-    </Fade>
+    </div>
   );
 }

@@ -46,10 +46,9 @@
 }
 
 .contact-image-div > img {
-  max-width: 100%;
   height: auto;
-  margin-left: 1.5rem;
-  margin-top: -4rem;
+  width: 30%;
+  margin-left: 35%;
 }
 
 /* Media Query */
@@ -81,6 +80,12 @@
     font-size: 20px;
   }
 
+  // .contact-image-div {
+  //   display: none;
+  // }
+}
+
+@media (max-width: 768px) {
   .contact-image-div {
     display: none;
   }

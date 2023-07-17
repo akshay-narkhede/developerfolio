@@ -51,7 +51,7 @@ export default function About() {
               <DisplayLottie animationData={codingPerson} />
             ) : (
               <img
-                alt="Man Working"
+                alt="coding"
                 src={require("../../assets/images/about-coding.jpg")}
               ></img>
             )}
