@@ -264,6 +264,9 @@ const bigProjects = {
       ],
       footerLink: [
         {
+          name: "#p2plending",
+        },
+        {
           name: "Visit Website",
           url: "https://impactp2p.com/",
           changeColor : true,
@@ -273,14 +276,17 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/leo1-learn-logo.avif"),
-      projectName: "Edinfinity",
-      projectDesc: "Edinfinity is an educational content consumption platform where self-hosted content and business partner-hosted content are consumed using rewards management.",
+      projectName: "LEO1 Learn (Edinfinity)",
+      projectDesc: "LEO1 Learn is an educational content consumption platform where self-hosted content and business partner-hosted content are consumed using rewards management.",
       descBullets : [
         "Designed and implemented an journey of content listing web and mobile application, with streaming enabled for different resolutions using AWS MediaConvert and CloudFront.",
         "Developed content streaming (OTT) platform using AWS S3, MediaConvert to stream on demand educational content recommended to user.",
         "Optimized web applications using server and client level caching which reduced load on resources by more than 60%."
       ],
       footerLink: [
+        {
+          name: "#digitallearning",
+        },
         {
           name: "Visit Website",
           url: "https://www.leo1.in/edinfinity/",
@@ -318,9 +324,14 @@ const achievementSection = {
           name: "#SoftwareEngineering",
         },
         {
-          name: "View Project",
+          name: "View Live Site",
           changeColor : true,
           url :"https://edusphere-lms.netlify.app/"
+        },
+        {
+          name: "View Project",
+          changeColor : true,
+          url :"https://drive.google.com/file/d/1hZ-ID795icXZWIUkCLCFnsQyc_Fwu4tf/view"
         }
       ]
     },
