@@ -460,7 +460,7 @@ const contactInfo = {
   title: emoji("Reach out to me"),
   subtitle:
     "I'm open to discussing projects, or catching up. Feel free to send me an email anytime or connect with me.",
-  email_address: "narkhede.aks@gmail.com"
+  // email_address: "narkhede.aks@gmail.com"
 };
 
 const aboutInfo = {
