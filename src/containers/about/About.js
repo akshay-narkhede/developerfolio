@@ -16,7 +16,7 @@ export default function About() {
     <div className={isDark ? "dark-mode main" : "main"} id="about">
       <div className="about-main-div">
         
-        <Fade left duration={300}>
+        <Fade left duration={100}>
           <div className="about-text-div">
             <h1
               className={isDark ? "dark-mode about-heading" : "about-heading"}
@@ -45,7 +45,7 @@ export default function About() {
             </p>
           </div>
         </Fade>
-        <Fade right duration={300}>
+        <Fade right duration={100}>
           <div className="about-image-div">
             {!illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />

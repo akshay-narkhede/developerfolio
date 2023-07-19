@@ -10,7 +10,7 @@ import StyleContext from "../../contexts/StyleContext";
 export default function About() {
   const {isDark} = useContext(StyleContext);
   return (
-    <Fade bottom duration={300} distance="20px">
+    <Fade bottom duration={100} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">

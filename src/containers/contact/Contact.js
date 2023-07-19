@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="contact">
       <div className="contact-main-div">
-      <Fade right duration={300}>
+      <Fade right duration={100}>
         <div className="contact-image-div">
             {!illustration.animated ? (
               <DisplayLottie animationData={email} />
@@ -24,7 +24,7 @@ export default function Contact() {
             )}
           </div>
         </Fade>
-        <Fade left duration={300}>
+        <Fade left duration={100}>
           <div className="contact-text-div">
             <h1
               className={isDark ? "dark-mode contact-heading" : "contact-heading"}
