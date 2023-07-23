@@ -26,6 +26,20 @@
         position: fixed;
         width: 100%;
     }
+    /* Landscape mode */
+    .landscape {
+            transform: rotate(0deg);
+        }
+
+    /* Portrait mode */
+    .portrait {
+        transform: rotate(90deg);
+        transform-origin: left top;
+        margin:25rem;
+        /* width: 100vh;
+        height: 100vw; */
+        overflow: hidden;
+    }
 </style>
 <body>
     <h1>Play Pong</h1>
@@ -34,5 +48,26 @@
     <p>(use laptop/desktop for better experiences)</p>
 
     <script src="./gameScript.js"></script>
+    <script>
+        // Function to check if the screen size is small
+        function isScreenSmall() {
+            return window.innerWidth < 768; // Adjust the threshold as needed
+        }
+
+        // Function to handle screen rotation
+        function handleScreenRotation() {
+            if (isScreenSmall()) {
+                document.documentElement.classList.add('portrait');
+            } else {
+                document.documentElement.classList.remove('portrait');
+            }
+        }
+
+        // Initial check on page load
+        handleScreenRotation();
+
+        // Listen for window resize event and adjust screen rotation accordingly
+        window.addEventListener('resize', handleScreenRotation);
+    </script>
 </body>
 </html>
