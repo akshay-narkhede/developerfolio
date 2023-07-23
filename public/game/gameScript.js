@@ -345,10 +345,48 @@ var Game = {
             // Handle down arrow and s key events
             if (key.keyCode === 40 || key.keyCode === 83) Pong.player.move = DIRECTION.DOWN;
         });
+
+        // Function to handle touch start and touch end events
+        function handleTouchStart(event) {
+            event.preventDefault(); // Prevent default touch behavior (e.g., scrolling)
+
+            // Get the Y coordinate of the touch event
+            const touchY = event.touches[0].clientY;
+            if (Pong.running === false) {
+                Pong.running = true;
+                window.requestAnimationFrame(Pong.loop);
+            }
+
+            // Get the height of the player's paddle (adjust this value based on your game)
+            const playerPaddleHeight = Pong.player.height;
+
+            // Get the Y coordinate of the player's paddle
+            const playerPaddleY = Pong.player.y;
+
+            // Check if the touch event is on the upper half or lower half of the player's paddle
+            if (touchY < playerPaddleY + playerPaddleHeight/2 ) {
+                // console.log("UP")
+                Pong.player.move = DIRECTION.UP;
+            } else {
+            // Move down if touched on the lower half
+                // console.log("down")
+                Pong.player.move = DIRECTION.DOWN;
+            }
+        }
+
+        // Function to handle touch end event
+        function handleTouchEnd() {
+            // Stop the player from moving when touch ends
+            Pong.player.move = DIRECTION.IDLE;
+        }
  
         // Stop the player from moving when there are no keys being pressed.
         document.addEventListener('keyup', function (key) { Pong.player.move = DIRECTION.IDLE; });
+        document.addEventListener('touchstart', handleTouchStart);
+        document.addEventListener('touchend', handleTouchEnd);
+        
     },
+    
  
     // Reset the ball location, the player turns and set a delay before the next round begins.
     _resetTurn: function(victor, loser) {
