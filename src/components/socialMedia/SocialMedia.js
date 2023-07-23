@@ -1,8 +1,21 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+import ReactGA from 'react-ga';
+
+
+const TRACKING_ID = "UA-135618960-2"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 export default function socialMedia() {
+  const handleClick = (category,action,label) => {
+    ReactGA.event({
+      category: category,
+      action: action,
+      label: label,
+    });
+  }
+
   if (!socialMediaLinks.display) {
     return null;
   }
@@ -14,6 +27,7 @@ export default function socialMedia() {
           className="icon-button github"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={()=>handleClick("buttonClick","github-visit","github-visit-buttonClick")}
         >
           <i className="fab fa-github"></i>
           <span></span>
@@ -26,6 +40,8 @@ export default function socialMedia() {
           className="icon-button linkedin"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={()=>handleClick("buttonClick","linkedin-visit","linkedin-visit-buttonClick")}
+
         >
           <i className="fab fa-linkedin-in"></i>
           <span></span>
@@ -38,6 +54,8 @@ export default function socialMedia() {
           className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={()=>handleClick("buttonClick","mail-visit","mail-visit-buttonClick")}
+
         >
           <i className="fas fa-envelope"></i>
           <span></span>
@@ -110,6 +128,8 @@ export default function socialMedia() {
           className="icon-button stack-overflow"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={()=>handleClick("buttonClick","stack-overflow-visit","stack-overflow-visit-buttonClick")}
+
         >
           <i className="fab fa-stack-overflow"></i>
           <span></span>

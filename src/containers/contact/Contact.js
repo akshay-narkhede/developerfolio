@@ -40,6 +40,22 @@ export default function Contact() {
             >
               {contactInfo.subtitle}
             </p>
+            <span className={
+                isDark
+                  ? "dark-mode contact-subtitle"
+                  : "subTitle contact-subtitle"
+              }>
+              You can also {" "}
+              <a href="./game/pong.html?utm_source=game&utm_medium=footer&utm_campaign=pong"
+              target="_blank">
+              play pong from here 
+              <img
+                  style = {{height:"20px",marginLeft:"5px"}}
+                  src={require("../../assets/images/pong.png")}
+              ></img>
+              </a>
+              {" "} in the meanwhile.
+            </span>
           </div>
           <div
               className={

@@ -13,6 +13,11 @@ import {
   achievementSection,
   aboutInfo
 } from "../../portfolio";
+import ReactGA from 'react-ga';
+
+
+const TRACKING_ID = "UA-135618960-2"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function Header() {
   const {isDark} = useContext(StyleContext);
@@ -23,6 +28,16 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+
+  
+  const handleClick = (category,action,label) => {
+    ReactGA.event({
+      category: category,
+      action: action,
+      label: label,
+    });
+  }
+  
 
   return (
     <Headroom>
@@ -96,8 +111,15 @@ function Header() {
             <a href="#contact">Contact</a>
           </li>
           <li>
+            <a href="./game/pong.html?utm_source=game&utm_medium=header&utm_campaign=pong" target="_blank">Play Pong <img
+                  style = {{height:"20px"}}
+                  src={require("../../assets/images/pong.png")}
+            ></img>
+            </a>
+          </li>
+          <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
+            <a onClick={()=>handleClick("buttonClick","toggleTheme","toggleTheme-buttonClick")}>
               <ToggleSwitch />
             </a>
           </li>
