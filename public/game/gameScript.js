@@ -47,8 +47,16 @@ var Game = {
         this.canvas = document.querySelector('canvas');
         this.context = this.canvas.getContext('2d');
  
-        this.canvas.width = 1200;
-        this.canvas.height = 800;
+        // this.canvas.width = 1200;
+        // this.canvas.height = 800;
+
+        this.canvas.width = window?.innerWidth + 100;
+        this.canvas.height = window?.innerHeight + 200;
+
+        if (window?.innerWidth < 768){
+            this.canvas.width = window?.innerHeight + 100;
+            this.canvas.height = window?.innerWidth + 200;
+        }
  
         this.canvas.style.width = (this.canvas.width / 2) + 'px';
         this.canvas.style.height = (this.canvas.height / 2) + 'px';
@@ -116,7 +124,7 @@ var Game = {
         this.context.fillStyle = '#ffffff';
  
         // Draw the 'press any key to begin' text
-        this.context.fillText('Press any key to begin',
+        this.context.fillText('Press any key/touch to begin',
             this.canvas.width / 2,
             this.canvas.height / 2 + 15
         );
@@ -294,22 +302,22 @@ var Game = {
  
         // Change the font size for the center score text
         this.context.font = '30px Tektur';
- 
-        // Draw the winning score (center)
+        
         this.context.fillText(
             'Player',
-            (this.canvas.width - 2100/ 2),
-            35
+            (this.canvas.width/ 2) - 300 ,
+            50
         );
         this.context.fillText(
             'AI',
-            (this.canvas.width - 900/ 2),
-            35
+            (this.canvas.width/ 2) + 300,
+            50
         );
+        // Draw the winning score (center)
         this.context.fillText(
             'Round ' + (Pong.round + 1),
             (this.canvas.width / 2),
-            35
+            50
         );
  
         // Change the font size for the center score value
@@ -319,7 +327,7 @@ var Game = {
         this.context.fillText(
             rounds[Pong.round] ? rounds[Pong.round] : rounds[Pong.round - 1],
             (this.canvas.width / 2),
-            100
+            120
         );
     },
  
