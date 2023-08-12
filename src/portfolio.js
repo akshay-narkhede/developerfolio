@@ -218,24 +218,24 @@ const workExperiences = {
       company: "LEO1(Financepeer)",
       companylogo: require("./assets/images/leo1-logo.jpg"),
       date: "Feb 2021 – Jul 2022",
-      desc: "LEO1 is a peer-to-peer lending platform that offers loans to students to pay school fees and multiple education services.",
+      desc: "LEO1 is a peer-to-peer lending platform that offers loans to students to pay school fees and education services.",
       descBullets: [
         "Lead architectural and design improvement efforts for multiple products",
         "Mentored team, conducted code reviews, debugging & ensured deployment of prod-ready code with optimal solutions",
-        "Conducted standup, grooming, demos, planning as a scrum master for multiple teams"
+        "Designing, analyzing and strategizing product, customer flow with the product team and validating the feasibility of new functionalities with estimating required development effort"
       ]
     },
-    {
-      role: "Full Stack Developer",
-      company: "LEO1(Financepeer)",
-      companylogo: require("./assets/images/leo1-logo.jpg"),
-      date: "Nov 2017 – Feb 2021",
-      desc: "LEO1 is a peer-to-peer lending platform that offers loans to students to pay school fees and multiple education services.",
-      descBullets: [
-        "Designing, analyzing and strategizing product, customer flow with the product team and validating the feasibility of new functionalities with estimating required development effort",
-        "Identified data issues and delivered RCA with corrective steps to business users for all products in the company"
-      ]
-    }
+    // {
+    //   role: "Full Stack Developer",
+    //   company: "LEO1(Financepeer)",
+    //   companylogo: require("./assets/images/leo1-logo.jpg"),
+    //   date: "Nov 2017 – Feb 2021",
+    //   desc: "LEO1 is a peer-to-peer lending platform that offers loans to students to pay school fees and multiple education services.",
+    //   descBullets: [
+    //     "Designing, analyzing and strategizing product, customer flow with the product team and validating the feasibility of new functionalities with estimating required development effort",
+    //     "Identified data issues and delivered RCA with corrective steps to business users for all products in the company"
+    //   ]
+    // }
   ]
 };
 
@@ -467,9 +467,13 @@ const contactInfo = {
 const aboutInfo = {
   display: true, // Set false to hide this section, defaults to true
   title: "About me",
-  para1:
+  para0:
     "Prior to embarking on my graduate studies, I spent five fruitful years as a Software Developer at Leo1 (Financepeer). Being the organization's first employee, I had the unique opportunity to contribute to multiple products from their inception and embrace various roles and responsibilities. With a team of just ten individuals, we achieved a significant milestone in 2019 when we were selected for the esteemed Google Launchpad Accelerator India event. During this event, we received invaluable mentorship from Google, propelling our growth and success.",
-  para2: "Beyond the realm of software development, I have diverse hobbies and interests that add color to my life. I take great pleasure in exploring my culinary skills by cooking different varieties of food. Additionally, spending quality time with friends, watching movies and TV shows, and embarking on exciting travel adventures to new destinations are among my favorite pastimes."
+  para1:
+    "Before starting my graduate studies, I spent five years as a Software Developer at Leo1 (Financepeer). As the first employee, I contributed to various product launches, took on diverse roles, and achieved a 2019 milestone with a ten-member team at Google Launchpad Accelerator India, benefiting from valuable Google mentorship for growth and success.",
+  para2:
+    "Apart from software development, I enjoy diverse hobbies like cooking various cuisines, cherishing moments with friends, watching movies, and exploring new travel destinations.",
+  para3: "Beyond the realm of software development, I have diverse hobbies and interests that add color to my life. I take great pleasure in exploring my culinary skills by cooking different varieties of food. Additionally, spending quality time with friends, watching movies and TV shows, and embarking on exciting travel adventures to new destinations are among my favorite pastimes."
 };
 
 // Twitter Section
