@@ -217,7 +217,7 @@ const workExperiences = {
       role: "Lead Software Engineer",
       company: "LEO1(Financepeer)",
       companylogo: require("./assets/images/leo1-logo.jpg"),
-      date: "Feb 2021 – Jul 2022",
+      date: "Nov 2017 – Jul 2022",
       desc: "LEO1 is a peer-to-peer lending platform that offers loans to students to pay school fees and education services.",
       descBullets: [
         "Lead architectural and design improvement efforts for multiple products",
