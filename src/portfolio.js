@@ -158,7 +158,8 @@ const educationInfo = {
       logo: require("./assets/images/Indiana-University.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
-      // desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "GPA: 3.95 / 4.0",
+      desc2: "Applied Algorithms, Machine Learning, Elements of Artificial Intelligence, Advanced Database Concepts, Computer Networks, Software Engineering",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -169,7 +170,8 @@ const educationInfo = {
       logo: require("./assets/images/mumbai_university.png"),
       subHeader: "Bachelor of Engineering in Information Technology",
       duration: "July 2014 - June 2018",
-      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      desc: "GPA: 3.6 / 4.0",
+      desc2: "Web and Mobile development, Database Systems, Cloud Computing, System & Web Security, Operating Systems, Distributed Systems",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -202,15 +204,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Web Developement Intern",
+      role: "Software Engineer Intern",
       company: "Future Wonder",
       companylogo: require("./assets/images/futurewonder.png"),
-      date: "May 2022 – Present",
+      date: "May 2023 – Present",
       desc: "Future Wonder excels in Application Design, Software Engineering, Testing, Infrastructure Consulting, and Vendor Management.",
       descBullets: [
-        "Resolved code issues for multiple client projects with efficient solutions in frontend and backend",
-        "Performed DevOps tasks, including Bitbucket to GitLab migration, updating scripts for QA production data migration",
-        "Assessed and assisted in the technical sales of a 2-year old machine learning project"
+        "Improved ReactJS page simplicity and efficiency through migration to Tailwind CSS, setting the stage for smoother future development.",
+        "Transferred the complete infrastructure from Bitbucket to GitLab, resulting in annual savings of $500, set up Netlify deployment for both staging and production environments. Also, revised and executed AWS EC2 scripts for options settlement in the Chicago Market across QA and production settings.",
+        "Assisting, contributing to 2-year-old machine learning project sales planning, assessing with Jupyter, exploring NLP models such as TF-IDF, GLOVE, BERT, Word2Vec for technical success and integrating into the existing systems"
       ]
     },
     {
@@ -220,8 +222,9 @@ const workExperiences = {
       date: "Nov 2017 – Jul 2022",
       desc: "LEO1 is a peer-to-peer lending platform that offers loans to students to pay school fees and education services.",
       descBullets: [
-        "Lead architectural and design improvement efforts for multiple products",
-        "Mentored team, conducted code reviews, debugging & ensured deployment of prod-ready code with optimal solutions",
+        "Led the development of MVT database architecture, web/system design and enriched financial models for p2p, lead generation and education content platforms which served more than 200k users",
+        "Enhanced platform accessibility by implementing customized onboarding for wealth partners with specific investment preferences. Identified and resolved data-related issues using Root Cause Analysis (RCA) and corrective measures, leading to a monthly onboarding total exceeding $5M.",
+        "Pioneered as the first employee, product owner for ImpactP2P and EdInfinity, driving the product's vision with team mentorship, code reviews, debugging, deploying optimal code as tech team scaled to 30+ members",
         "Designing, analyzing and strategizing product, customer flow with the product team and validating the feasibility of new functionalities with estimating required development effort"
       ]
     },
@@ -258,9 +261,9 @@ const bigProjects = {
       projectName: "ImpactP2P",
       projectDesc: "ImpactP2P is a p2p lending and borrowing platform designed to address the financial needs of self-employed, salaried individuals through a highly secure and digital medium.",
       descBullets : [
-        "Constructed an entire loan system with KYC (Know Your Customer) integration, bank analysis, credit check integration and credit score in-house algorithms with dashboards",
-        "Executed core modules of investor flow and wealth partner solutions delivering functionalities such as auto investing, portfolio management, portfolio liquidity and interactive dashboards",
-        "Developed core components of EMI, penalty payment scheduling revenue management"
+        "Constructed a comprehensive loan system from scratch using ReactJS, Python-Django MVT architecture, encompassing modules like KYC integration, multiple bank integration, credit score integration, and in-house credit score algorithms which served more than 200k users",
+        "Developed in-house financial algorithms in the investor and wealth partner user journey such as auto-investment, portfolio management & liquidity modules, which processed transactions more than $3M monthly",
+        "Engineered vital modules for an accrual loan system including amortized EMI payments, penalty scheduling, revenue management, overseeing consolidated monthly transactions exceeded $5M"
       ],
       footerLink: [
         {
@@ -331,7 +334,7 @@ const achievementSection = {
         {
           name: "View Project",
           changeColor : true,
-          url :"https://drive.google.com/file/d/1hZ-ID795icXZWIUkCLCFnsQyc_Fwu4tf/view"
+          url :"https://youtu.be/F7-QKS7v_N0"
         }
       ]
     },
@@ -460,8 +463,8 @@ const contactInfo = {
   title: emoji("Reach out to me"),
   subtitle:
     "I'm open to discussing projects, or catching up. Feel free to connect with me.",
-  subtitle2: "You can also play pong from here in the meanwhile."
-  // email_address: "narkhede.aks@gmail.com"
+  subtitle2: "You can also play pong from here in the meanwhile.",
+  email_address: "narkhede.aks@gmail.com"
 };
 
 const aboutInfo = {
