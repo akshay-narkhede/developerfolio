@@ -204,15 +204,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer Intern",
+      role: "Software & Machine Learning Engineer Intern",
       company: "Future Wonder",
       companylogo: require("./assets/images/futurewonder.png"),
-      date: "May 2023 – Present",
+      date: "May 2023 – Dec 2023",
       desc: "Future Wonder excels in Application Design, Software Engineering, Testing, Infrastructure Consulting, and Vendor Management.",
       descBullets: [
         "Improved ReactJS page simplicity and efficiency through migration to Tailwind CSS, setting the stage for smoother future development.",
         "Transferred the complete infrastructure from Bitbucket to GitLab, resulting in annual savings of $500, set up Netlify deployment for both staging and production environments. Also, revised and executed AWS EC2 scripts for options settlement in the Chicago Market across QA and production settings.",
-        "Assisting, contributing to 2-year-old machine learning project sales planning, assessing with Jupyter, exploring NLP models such as TF-IDF, GLOVE, BERT, Word2Vec for technical success and integrating into the existing systems"
+        "Assisting, contributing to 2-year-old machine learning project sales planning, assessing with Jupyter, exploring NLP models such as TF-IDF, GLOVE, Word2Vec for technical success and integrating into the existing systems"
       ]
     },
     {
@@ -464,16 +464,16 @@ const contactInfo = {
   subtitle:
     "I'm open to discussing projects, or catching up. Feel free to connect with me.",
   subtitle2: "You can also play pong from here in the meanwhile.",
-  email_address: "narkhede.aks@gmail.com"
+  email_address: "narkhede (dOt) aks AT gmail (dOt) com"
 };
 
 const aboutInfo = {
   display: true, // Set false to hide this section, defaults to true
   title: "About me",
   para0:
-    "Prior to embarking on my graduate studies, I spent five fruitful years as a Software Developer at Leo1 (Financepeer). Being the organization's first employee, I had the unique opportunity to contribute to multiple products from their inception and embrace various roles and responsibilities. With a team of just ten individuals, we achieved a significant milestone in 2019 when we were selected for the esteemed Google Launchpad Accelerator India event. During this event, we received invaluable mentorship from Google, propelling our growth and success.",
+    "Prior to embarking on my graduate studies, I spent around five fruitful years as a Software Developer at Financepeer (a Google Launchpad recognized startup). Being the organization's first employee, I had the unique opportunity to contribute to multiple products from their inception and embrace various roles and responsibilities. With a team of just ten individuals, we achieved a significant milestone in 2019 when we were selected for the esteemed Google Launchpad Accelerator India event. During this event, we received invaluable mentorship from Google, propelling our growth and success.",
   para1:
-    "Before starting my graduate studies, I spent five years as a Software Developer at Leo1 (Financepeer). I started as the first team member and played a key role in the company's growth from 4 to 300 employees. I was part of the team that secured a spot in Google Launchpad Accelerator India in 2019, and algorithms developed by me helped to manage daily transactions exceeding $2M and onboarded $5M monthly business.",
+    "Before starting my graduate studies, I spent around five fruitful years as a Software Developer at Financepeer (a Google Launchpad recognized startup). I started as the first team member and played a key role in the company's growth from 4 to 300 employees. I was part of the team that secured a spot in Google Launchpad Accelerator India in 2019, and algorithms developed by me helped to manage daily transactions exceeding $2M and onboarded $5M monthly business.",
   para2:
     "Apart from software development, I enjoy diverse hobbies like cooking various cuisines, cherishing moments with friends, watching movies, and exploring new travel destinations.",
   para3: "Beyond the realm of software development, I have diverse hobbies and interests that add color to my life. I take great pleasure in exploring my culinary skills by cooking different varieties of food. Additionally, spending quality time with friends, watching movies and TV shows, and embarking on exciting travel adventures to new destinations are among my favorite pastimes."
