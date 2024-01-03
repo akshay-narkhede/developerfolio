@@ -8,7 +8,7 @@ export default function BlogCard({blog, isDark}) {
       return;
     }
     var win = window.open(url, "_blank");
-    win.focus();
+    // win.focus();
   }
 
   return (

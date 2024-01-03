@@ -72,6 +72,11 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          {viewSkills && (
+            <li>
+              <a href="#whyme">Why me?</a>
+            </li>
+          )}
           {viewAbout && (
             <li>
               <a href="#about">About</a>
@@ -80,6 +85,11 @@ function Header() {
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
+            </li>
+          )}
+          {viewBlog && (
+            <li>  
+              <a href="#blogs">Why me?</a>
             </li>
           )}
           {viewExperience && (
@@ -95,11 +105,6 @@ function Header() {
           {viewAchievement && (
             <li>
               <a href="#Projects">Projects</a>
-            </li>
-          )}
-          {viewBlog && (
-            <li>
-              <a href="#blogs">Blogs</a>
             </li>
           )}
           {viewTalks && (

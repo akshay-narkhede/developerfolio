@@ -148,6 +148,25 @@ https://fontawesome.com/icons?d=gallery */
   display: true // Set false to hide this section, defaults to true
 };
 
+
+// whyMeSection Section
+
+const whyMeSection = {
+  title: "Why me?",
+  subTitle: "",
+  skills: [
+    emoji("⚡ Pioneered the conception and execution of of entire platforms across diverse domains such as Finance, Edtech and OTT platform."),
+    emoji("⚡ Led development of complex systems from conceptualization to successful launches, drive product vision, mentor team members, serving over 200k users, managed daily transactions exceeding $2M and on-boarded $5M monthly business."),
+    emoji("⚡ Contributed to projects that received recognition from Google Launchpad Accelerator India 2019 out of 10 startups from India and Smart India Hackathon 2017."),
+    emoji("⚡ Contributed to a 2-year-old machine learning project for sales planning, utilizing Jupyter notebook to assess technical aspects and experiment with NLP models like TF-IDF, GLOVE, BERT, and Word2Vec for business value and integration into existing system."),
+    emoji("⚡ Streamlined workflows and saved 150 hours/quarter time for stakeholders through initiatives like real-time dashboards, automated reporting, and task optimization."),
+  ],
+
+  display: true // Set false to hide this section, defaults to true
+};
+
+
+
 // Education Section
 
 const educationInfo = {
@@ -406,16 +425,16 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Why me?",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      title: "EEE Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Pioneered the conception and execution of of entire platforms across diverse domains such as Finance, Edtech and OTT platform."
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
@@ -506,5 +525,6 @@ export {
   contactInfo,
   twitterDetails,
   aboutInfo,
-  isHireable
+  isHireable,
+  whyMeSection,
 };
