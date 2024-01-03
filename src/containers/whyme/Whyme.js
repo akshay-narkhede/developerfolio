@@ -14,7 +14,7 @@ export default function Whyme() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="whyme">
       <div className="skills-main-div">
-        <Fade left duration={500}>
+        <Fade left duration={50}>
           <div className="skills-image-div">
             {!illustration.animated ? (
               <DisplayLottie animationData={codingPerson} />
@@ -26,7 +26,7 @@ export default function Whyme() {
             )}
           </div>
         </Fade>
-        <Fade right duration={500}>
+        <Fade right duration={50}>
           <div className="skills-text-div">
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}

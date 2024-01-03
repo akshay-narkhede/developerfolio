@@ -18,7 +18,7 @@ export default function Footer() {
     });
   }
   return (
-    <Fade bottom duration={500} distance="5px">
+    <Fade bottom duration={50} distance="5px">
       <div className="footer-div">
         <p style={{fontSize:"1rem", margin: 0}} className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Akshay Narkhede ")} @ {new Date().getFullYear()}
