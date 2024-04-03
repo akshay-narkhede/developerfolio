@@ -155,11 +155,11 @@ const whyMeSection = {
   title: "Why me?",
   subTitle: "",
   skills: [
-    emoji("⚡ Pioneered the conception and execution of of entire platforms across diverse domains such as Finance, Edtech and OTT platform."),
-    emoji("⚡ Led development of complex systems from conceptualization to successful launches, drive product vision, mentor team members, serving over 200k users, managed daily transactions exceeding $2M and on-boarded $5M monthly business."),
+    emoji("⚡ Pioneered as the first employee, product owner for impactp2p and edinfinity, driving the product's vision with CXO's mentorship, and overseeing successful launches as tech team scaled to 30+ members."),
+    emoji("⚡ Led development of complex systems from conceptualization to successful launches, drive product vision, mentor team members, serving over 300k users, led to > $10 Million in monthly business growth, processed $100+ Million transactions."),
     emoji("⚡ Contributed to projects that received recognition from Google Launchpad Accelerator India 2019 out of 10 startups from India and Smart India Hackathon 2017."),
     emoji("⚡ Contributed to a 2-year-old machine learning project for sales planning, utilizing Jupyter notebook to assess technical aspects and experiment with NLP models like TF-IDF, GLOVE, BERT, and Word2Vec for business value and integration into existing system."),
-    emoji("⚡ Streamlined workflows and saved 150 hours/quarter time for stakeholders through initiatives like real-time dashboards, automated reporting, and task optimization."),
+    emoji("⚡ Streamlined workflows and saved ~150 hours/quarter time for stakeholders through initiatives like real-time dashboards, automated reporting, and task optimization."),
   ],
 
   display: true // Set false to hide this section, defaults to true
@@ -178,7 +178,7 @@ const educationInfo = {
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
       desc: "GPA: 3.95 / 4.0",
-      desc2: "Applied Algorithms, Machine Learning, Elements of Artificial Intelligence, Advanced Database Concepts, Computer Networks, Software Engineering",
+      desc2: "Applied Algorithms, Machine Learning, Elements of Artificial Intelligence, Advanced Database Concepts, Computer Vision, Computer Networks, Software Engineering",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -230,7 +230,7 @@ const workExperiences = {
       desc: "Future Wonder excels in Application Design, Software Engineering, Testing, Infrastructure Consulting, and Vendor Management.",
       descBullets: [
         "Improved ReactJS page simplicity and efficiency through migration to Tailwind CSS, setting the stage for smoother future development.",
-        "Transferred the complete infrastructure from Bitbucket to GitLab, resulting in annual savings of $500, set up Netlify deployment for both staging and production environments. Also, revised and executed AWS EC2 scripts for options settlement in the Chicago Market across QA and production settings.",
+        "Transferred the complete infrastructure from Bitbucket to GitLab, resulting reduction in cost by 20%, set up Netlify deployment for both staging and production environments. Also, revised and executed AWS EC2 scripts for options settlement in the Chicago Market across QA and production settings.",
         "Assisting, contributing to 2-year-old machine learning project sales planning, assessing with Jupyter, exploring NLP models such as TF-IDF, GLOVE, Word2Vec for technical success and integrating into the existing systems"
       ]
     },
@@ -241,9 +241,9 @@ const workExperiences = {
       date: "Nov 2017 – Jul 2022",
       desc: "LEO1 is a peer-to-peer lending platform that offers loans to students to pay school fees and education services.",
       descBullets: [
-        "Led the development of MVT database architecture, web/system design and enriched financial models for p2p, lead generation and education content platforms which served more than 200k users",
-        "Enhanced platform accessibility by implementing customized onboarding for wealth partners with specific investment preferences. Identified and resolved data-related issues using Root Cause Analysis (RCA) and corrective measures, leading to a monthly onboarding total exceeding $5M.",
-        "Pioneered as the first employee, product owner for ImpactP2P and EdInfinity, driving the product's vision with team mentorship, code reviews, debugging, deploying optimal code as tech team scaled to 30+ members",
+        "Pioneered as the first employee, product owner for ImpactP2P and EdInfinity, driving the product's vision with CXO's mentorshipas tech team scaled to 30+ members",
+        "Led the development of MVT database architecture, web/system design and enriched financial models for p2p, lead generation and education content platforms which served more than 300k users",
+        "Enhanced platform accessibility by implementing customized onboarding for wealth partners with specific investment preferences. Identified and resolved data-related issues using Root Cause Analysis (RCA) and corrective measures, leading to a monthly onboarding total exceeding $10M.",
         "Designing, analyzing and strategizing product, customer flow with the product team and validating the feasibility of new functionalities with estimating required development effort"
       ]
     },
@@ -280,9 +280,9 @@ const bigProjects = {
       projectName: "ImpactP2P",
       projectDesc: "ImpactP2P is a p2p lending and borrowing platform designed to address the financial needs of self-employed, salaried individuals through a highly secure and digital medium.",
       descBullets : [
-        "Constructed a comprehensive loan system from scratch using ReactJS, Python-Django MVT architecture, encompassing modules like KYC integration, multiple bank integration, credit score integration, and in-house credit score algorithms which served more than 200k users",
-        "Developed in-house financial algorithms in the investor and wealth partner user journey such as auto-investment, portfolio management & liquidity modules, which processed transactions more than $3M monthly",
-        "Engineered vital modules for an accrual loan system including amortized EMI payments, penalty scheduling, revenue management, overseeing consolidated monthly transactions exceeded $5M"
+        "Constructed a comprehensive loan system from scratch using ReactJS, Python-Django MVT architecture, encompassing modules like KYC integration, multiple bank integration, credit score integration, and in-house credit score algorithms which served more than 300k users",
+        "Developed in-house financial algorithms in the investor and wealth partner user journey such as auto-investment, portfolio management & liquidity modules, which processed transactions more than 10M monthly",
+        "Engineered vital modules for an accrual loan system including amortized EMI payments, penalty scheduling, revenue management, overseeing consolidated overall transactions $100M+"
       ],
       footerLink: [
         {
@@ -301,8 +301,8 @@ const bigProjects = {
       projectName: "LEO1 Learn (Edinfinity)",
       projectDesc: "LEO1 Learn is an educational content consumption platform where self-hosted content and business partner-hosted content are consumed using rewards management.",
       descBullets : [
-        "Designed and implemented an journey of content listing web and mobile application, with streaming enabled for different resolutions using AWS MediaConvert and CloudFront.",
-        "Developed content streaming (OTT) platform using AWS S3, MediaConvert to stream on demand educational content recommended to user.",
+        "Collaboratively built EdInfinity (educational video platform) from scratch w/ ReactJS & Python for partner videos and self-hosted videos UI/UX like Netflix using Tailwind CSS, CDN.",
+        "Engineered on-demand multi-resolution HLS streaming solution (Python, ReactJS) for EdInfinity smooth video playback using AWS Elemental MediaConvert, CloudFront, S3, cache resulting in a > 60% reduction in resource load.",
         "Optimized web applications using server and client level caching which reduced load on resources by more than 60%."
       ],
       footerLink: [
@@ -492,7 +492,7 @@ const aboutInfo = {
   para0:
     "Prior to embarking on my graduate studies, I spent around five fruitful years as a Software Developer at Financepeer (a Google Launchpad recognized startup). Being the organization's first employee, I had the unique opportunity to contribute to multiple products from their inception and embrace various roles and responsibilities. With a team of just ten individuals, we achieved a significant milestone in 2019 when we were selected for the esteemed Google Launchpad Accelerator India event. During this event, we received invaluable mentorship from Google, propelling our growth and success.",
   para1:
-    "Before starting my graduate studies, I spent around five fruitful years as a Software Developer at Financepeer (a Google Launchpad recognized startup). I started as the first team member and played a key role in the company's growth from 4 to 300 employees. I was part of the team that secured a spot in Google Launchpad Accelerator India in 2019, and algorithms developed by me helped to manage daily transactions exceeding $2M and onboarded $5M monthly business.",
+    "Before starting my graduate studies, I spent around five fruitful years as a Software Developer at Financepeer (a Google Launchpad recognized startup). I started as the first team member and played a key role in the company's growth from 4 to 300 employees. I was part of the team that secured a spot in Google Launchpad Accelerator India in 2019, and algorithms developed by me helped to onboard > $10M monthly business and process $100+ Million transactions.",
   para2:
     "Apart from software development, I enjoy diverse hobbies like cooking various cuisines, cherishing moments with friends, watching movies, and exploring new travel destinations.",
   para3: "Beyond the realm of software development, I have diverse hobbies and interests that add color to my life. I take great pleasure in exploring my culinary skills by cooking different varieties of food. Additionally, spending quality time with friends, watching movies and TV shows, and embarking on exciting travel adventures to new destinations are among my favorite pastimes."
