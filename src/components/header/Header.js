@@ -115,13 +115,15 @@ function Header() {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li>
-            <a href="./game/pong.html?utm_source=game&utm_medium=header&utm_campaign=pong" target="_blank">Play Pong <img
-                  style = {{height:"20px"}}
-                  src={require("../../assets/images/pong.png")}
-            ></img>
-            </a>
-          </li>
+          {viewTalks && (
+            <li>
+              <a href="./game/pong.html?utm_source=game&utm_medium=header&utm_campaign=pong" target="_blank">Play Pong <img
+                    style = {{height:"20px"}}
+                    src={require("../../assets/images/pong.png")}
+              ></img>
+              </a>
+            </li>
+          )}
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a onClick={()=>handleClick("buttonClick","toggleTheme","toggleTheme-buttonClick")}>

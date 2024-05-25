@@ -23,6 +23,9 @@ const greeting = {
   username: "Akshay Narkhede",
   title: "Hi there, I'm Akshay",
   subTitle: emoji(
+    "Software Engineer | Master's CS (Indiana University Bloomington)"
+  ),
+  subTitle1: emoji(
     "I'm a software engineer specializing in crafting exceptional digital experiences through web and mobile application development. Currently pursuing a Master's in Computer Science at Indiana University Bloomington."
   ),
   resumeLink:
@@ -178,7 +181,7 @@ const educationInfo = {
       logo: require("./assets/images/Indiana-University.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
-      desc: "GPA: 3.95 / 4.0",
+      desc: "GPA: 3.7 / 4.0",
       desc2: "Applied Algorithms, Machine Learning, Elements of Artificial Intelligence, Advanced Database Concepts, Computer Vision, Computer Networks, Software Engineering",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -483,7 +486,7 @@ const contactInfo = {
   title: emoji("Reach out to me"),
   subtitle:
     "I'm open to discussing projects, or catching up. Feel free to connect with me.",
-  subtitle2: "You can also play pong from here in the meanwhile.",
+  // subtitle2: "You can also play pong from here in the meanwhile.",
   email_address: "narkhede (dOt) aks AT gmail (dOt) com"
 };
 
