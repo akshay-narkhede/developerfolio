@@ -155,10 +155,11 @@ const whyMeSection = {
   title: "Why me?",
   subTitle: "",
   skills: [
-    emoji("⚡ Pioneered as the first employee, product owner for impactp2p and edinfinity, driving the product's vision with CXO's mentorship, and overseeing successful launches as tech team scaled to 30+ members."),
+    emoji("⚡ First employee hired to build products, grew to lead engineering, and scaled company from Seed round to Series B ($31M in funding) with QED Investors."),
+    emoji("⚡ Product owner for Impactp2p & Edinfinity, led successful launches with CXO’s, scaled tech team to 30+."),
     emoji("⚡ Led development of complex systems from conceptualization to successful launches, drive product vision, mentor team members, serving over 300k users, led to > $10 Million in monthly business growth, processed $100+ Million transactions."),
     emoji("⚡ Contributed to projects that received recognition from Google Launchpad Accelerator India 2019 out of 10 startups from India and Smart India Hackathon 2017."),
-    emoji("⚡ Contributed to a 2-year-old machine learning project for sales planning, utilizing Jupyter notebook to assess technical aspects and experiment with NLP models like TF-IDF, GLOVE, BERT, and Word2Vec for business value and integration into existing system."),
+    emoji("⚡ R&D: NLP integration for sales planning of 2yr ML project (Jupyter, Word2Vec / TF-IDF / GLOVE/ FastText) which increased text-matching accuracy for targeted grant decisions."),
     emoji("⚡ Streamlined workflows and saved ~150 hours/quarter time for stakeholders through initiatives like real-time dashboards, automated reporting, and task optimization."),
   ],
 
@@ -490,9 +491,9 @@ const aboutInfo = {
   display: true, // Set false to hide this section, defaults to true
   title: "About me",
   para0:
-    "Prior to embarking on my graduate studies, I spent around five fruitful years as a Software Developer at Financepeer (a Google Launchpad recognized startup). Being the organization's first employee, I had the unique opportunity to contribute to multiple products from their inception and embrace various roles and responsibilities. With a team of just ten individuals, we achieved a significant milestone in 2019 when we were selected for the esteemed Google Launchpad Accelerator India event. During this event, we received invaluable mentorship from Google, propelling our growth and success.",
+    "Prior to embarking on my graduate studies, I spent around five fruitful years as a Software Developer at Financepeer (a Google Launchpad Incubated company). Being the organization's first employee, I had the unique opportunity to contribute to multiple products from their inception and embrace various roles and responsibilities. With a team of just ten individuals, we achieved a significant milestone in 2019 when we were selected for the esteemed Google Launchpad Accelerator India event. During this event, we received invaluable mentorship from Google, propelling our growth and success.",
   para1:
-    "Before starting my graduate studies, I spent around five fruitful years as a Software Developer at Financepeer (a Google Launchpad recognized startup). I started as the first team member and played a key role in the company's growth from 4 to 300 employees. I was part of the team that secured a spot in Google Launchpad Accelerator India in 2019, and algorithms developed by me helped to onboard > $10M monthly business and process $100+ Million transactions.",
+    "Before starting my graduate studies, I spent around five fruitful years as a Software Developer at Financepeer (a Google Launchpad Incubated company). I started as the first team member and played a key role in the company's growth from 4 to 300 employees. I was part of the team that secured a spot in Google Launchpad Accelerator India in 2019, and algorithms developed by me helped to onboard > $10M monthly business and process $100+ Million transactions.",
   para2:
     "Apart from software development, I enjoy diverse hobbies like cooking various cuisines, cherishing moments with friends, watching movies, and exploring new travel destinations.",
   para3: "Beyond the realm of software development, I have diverse hobbies and interests that add color to my life. I take great pleasure in exploring my culinary skills by cooking different varieties of food. Additionally, spending quality time with friends, watching movies and TV shows, and embarking on exciting travel adventures to new destinations are among my favorite pastimes."
