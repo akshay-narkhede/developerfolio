@@ -22,11 +22,11 @@ const illustration = {
 const greeting = {
   username: "Akshay Narkhede",
   title: "Hi there, I'm Akshay",
-  subTitle: emoji(
+  subTitle1: emoji(
     "Software Engineer | Master's CS (Indiana University Bloomington)"
   ),
-  subTitle1: emoji(
-    "I'm a software engineer specializing in crafting exceptional digital experiences through web and mobile application development. Currently pursuing a Master's in Computer Science at Indiana University Bloomington."
+  subTitle: emoji(
+    "Software engineer specializing in crafting exceptional digital experiences through web and mobile application development. Master's in CS from Indiana University Bloomington."
   ),
   resumeLink:
     "",

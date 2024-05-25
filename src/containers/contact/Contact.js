@@ -66,7 +66,7 @@ export default function Contact() {
                 {contactInfo.email_address}
               </a>
               <br />
-              <br />
+              {/* <br />
               <span className={
                   isDark
                     ? "dark-mode contact-subtitle"
@@ -83,7 +83,7 @@ export default function Contact() {
                 </a>
                 {" "} in the meanwhile.
               </span>
-              <br /><br />
+              <br /><br /> */}
               <SocialMedia />
             </div>
         </Fade>
