@@ -26,7 +26,7 @@ const greeting = {
     "Software Engineer | Master's CS (Indiana University Bloomington)"
   ),
   subTitle: emoji(
-    "Software engineer specializing in crafting exceptional digital experiences through web and mobile application development. Master's in CS from Indiana University Bloomington."
+    "Software engineer specializing in crafting exceptional digital experiences through web & mobile app development. Master's in CS from Indiana University Bloomington."
   ),
   resumeLink:
     "",
