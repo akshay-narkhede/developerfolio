@@ -160,7 +160,7 @@ const whyMeSection = {
     emoji("⚡ Led development of complex systems from conceptualization to successful launches, drive product vision, mentor team members, serving over 300k users, led to > $10 Million in monthly business growth, processed $100+ Million transactions."),
     emoji("⚡ Contributed to projects that received recognition from Google Launchpad Accelerator India 2019 out of 10 startups from India and Smart India Hackathon 2017."),
     emoji("⚡ R&D: NLP integration for sales planning of 2yr ML project (Jupyter, Word2Vec / TF-IDF / GLOVE/ FastText) which increased text-matching accuracy for targeted grant decisions."),
-    emoji("⚡ Streamlined workflows and saved ~150 hours/quarter time for stakeholders through initiatives like real-time dashboards, automated reporting, and task optimization."),
+    emoji("⚡ Boosted project efficiency by 30% (saved stakeholders ~150 hrs/qtr) through Agile, communication, and workflow improvements (dashboards, reporting, task optimization)"),
   ],
 
   display: true // Set false to hide this section, defaults to true
