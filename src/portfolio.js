@@ -336,7 +336,7 @@ const achievementSection = {
     {
       title: "Driving Hands",
       subtitle:
-        "In this we explored using hand gestures to control autonomous vehicles. It achieved high accuracy (98%) in recognizing hand gestures using a mobile-friendly machine learning model (MobileNetV2). The project also demonstrated real-time control of a car simulator using hand gestures.",
+        "In this we explored using hand gestures to control autonomous vehicles. It achieved high accuracy (98%) using a mobile-friendly machine learning model (MobileNetV2). Also demonstrated real-time control of a car simulator using hand gestures.",
       image: require("./assets/images/driving_hands.png"),
       imageAlt: "driving hands",
       footerLink: [
