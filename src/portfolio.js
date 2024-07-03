@@ -334,6 +334,29 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Driving Hands",
+      subtitle:
+        "In this we explored using hand gestures to control autonomous vehicles. It achieved high accuracy (98%) in recognizing hand gestures using a mobile-friendly machine learning model (MobileNetV2). The project also demonstrated real-time control of a car simulator using hand gestures.",
+      image: require("./assets/images/driving_hands.png"),
+      imageAlt: "driving hands",
+      footerLink: [
+        {
+          name: "#AutonomousDriving",
+        },
+        {
+          name: "#ComputerVision",
+        },
+        {
+          name: "#MobileNetV3",
+        },
+        {
+          name: "View Demo",
+          changeColor : true,
+          url :"https://photos.google.com/share/AF1QipPcYtcRjUeDBeF0VI7cIM9DN_sV_NKatfHC9jJCaR2BpOmOx0F8wDjeCLuxxIcLWw/photo/AF1QipN8yPFxzCRuuuw1OhIzWLxLONOoLI8QmROLSReV?key=dUVLN0d1cDhmOFlXajBmcGJlVUtTRDhta1psdThR"
+        }
+      ]
+    },
+    {
       title: "EduSphere a Learning Management System",
       subtitle:
         "Edusphere is a learning management system (LMS) that provides a comprehensive platform for educational institutions to manage and deliver online learning content.",
@@ -373,7 +396,32 @@ const achievementSection = {
         {name: "#MLPipelines", url: ""},
       ]
     },
-
+    {
+      title: "Pixy - see it share it",
+      subtitle:
+        "Pixy is a website built with Next.js, Javascript and Vercel that utilizes the Pixabay API to provide a unique visual discovery experience.",
+      image: require("./assets/images/pixy-high-resolution-logo-transparent.png"),
+      imageAlt: "Pixy",
+      footerLink: [
+        {
+          name: "#photos",
+        },
+        {
+          name: "#API",
+        },
+        {
+          name: "#responsive",
+        },
+        {
+          name: "#nextjs",
+        },
+        {
+          name: "View Live Site",
+          changeColor : true,
+          url :"https://pixy-seeitshareit.vercel.app/"
+        },
+      ]
+    },
     {
       title: "ANFlix",
       subtitle: "A movies listing webpage from TMDB APIs with all general categories of movies and TV shows with play trailers of selected movie names using node package module.",
@@ -487,7 +535,7 @@ const contactInfo = {
   subtitle:
     "I'm open to discussing projects, or catching up. Feel free to connect with me.",
   // subtitle2: "You can also play pong from here in the meanwhile.",
-  email_address: "narkhede (dOt) aks AT gmail (dOt) com"
+  email_address: "narkhede (dot) aks (at) gmail (dot) com"
 };
 
 const aboutInfo = {
