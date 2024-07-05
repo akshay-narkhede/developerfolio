@@ -26,7 +26,7 @@ const greeting = {
     "Software Engineer | Master's CS (Indiana University Bloomington)"
   ),
   subTitle: emoji(
-    "Software engineer crafting digital experiences (web/mobile). Built <b>platform (0->1) for $100M+ & 300k+ users</b>. MS CS Indiana University Bloomington"
+    "Software engineer crafting digital experiences (web/mobile). Built platform (0->1) for $100M+ & 300k+ users. MS CS Indiana University Bloomington"
   ),
   resumeLink:
     "",
