@@ -227,6 +227,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "Brico",
+      companylogo: require("./assets/images/Brico.jpeg"),
+      date: "Sept 2024 – Present",
+      desc: "Brico automates financial licensing for FinTechs and Financial Institutions. Manage MTLs, Lending, Collection, and servicing licenses with ease.",
+      descBullets: [
+        "Designing, developing, and maintaining high-quality web applications with a focus on user experience",
+        "Conducting code reviews, implementing testing protocols, and ensuring high-quality software delivery.",
+        "Contributing to the overall system architecture and influence development processes to drive engineering excellence."
+      ]
+    },
+    {
       role: "Software & Machine Learning Engineer Intern",
       company: "Future Wonder",
       companylogo: require("./assets/images/futurewonder.png"),
