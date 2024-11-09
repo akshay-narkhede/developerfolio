@@ -181,7 +181,7 @@ const educationInfo = {
       logo: require("./assets/images/Indiana-University.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
-      desc: "GPA: 3.7 / 4.0",
+      desc: "GPA: 3.97 / 4.0",
       desc2: "Applied Algorithms, Machine Learning, Elements of Artificial Intelligence, Advanced Database Concepts, Computer Vision, Computer Networks, Software Engineering",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -361,11 +361,11 @@ const achievementSection = {
         {
           name: "#MobileNetV3",
         },
-        {
-          name: "View Demo",
-          changeColor : true,
-          url :"https://photos.google.com/share/AF1QipPcYtcRjUeDBeF0VI7cIM9DN_sV_NKatfHC9jJCaR2BpOmOx0F8wDjeCLuxxIcLWw/photo/AF1QipN8yPFxzCRuuuw1OhIzWLxLONOoLI8QmROLSReV?key=dUVLN0d1cDhmOFlXajBmcGJlVUtTRDhta1psdThR"
-        }
+        // {
+        //   name: "View Demo",
+        //   changeColor : true,
+        //   url :"https://photos.google.com/share/AF1QipPcYtcRjUeDBeF0VI7cIM9DN_sV_NKatfHC9jJCaR2BpOmOx0F8wDjeCLuxxIcLWw/photo/AF1QipN8yPFxzCRuuuw1OhIzWLxLONOoLI8QmROLSReV?key=dUVLN0d1cDhmOFlXajBmcGJlVUtTRDhta1psdThR"
+        // }
       ]
     },
     {
